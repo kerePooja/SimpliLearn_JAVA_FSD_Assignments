@@ -1,4 +1,4 @@
-package com.Amit;
+package com.Pooja;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -19,7 +19,7 @@ public class Login extends HttpServlet{
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String url="jdbc:mysql://localhost:3306/amit";
+		String url="jdbc:mysql://localhost:3306/Pooja";
 		String uname="root";
 		String pass="";
 		
